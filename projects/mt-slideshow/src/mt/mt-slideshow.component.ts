@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { scaleIn, scaleOut, fadeIn, fadeOut, flipIn, flipOut, jackIn, jackOut } from './mt-slideshow.component.animation';
 
 @Component({
-  selector: 'lib-mt-slideshow',
+  selector: 'mt-slideshow',
   templateUrl: './mt-slideshow.component.html',
   styleUrls: ['./mt-slideshow.component.scss'],
   animations: [

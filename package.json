@@ -36,5 +36,18 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^12.1.1",
     "typescript": "~4.3.5"
-  }
+  },
+  "description": "A simple Angular Framework with different premade simple components",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masoudtahmasebi93/mt-slideshow.git"
+  },
+  "keywords": ["javascript","Angular","MT Framework"],
+  "author": "Masoud Tahmasebi <mtahmasebi118@gmail.com> (http://masoudtahmasebi.ir)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masoudtahmasebi93/mt-slideshow/issues"
+  },
+  "homepage": "https://github.com/masoudtahmasebi93/mt-slideshow#readme"
 }

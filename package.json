@@ -43,7 +43,11 @@
     "type": "git",
     "url": "git+https://github.com/masoudtahmasebi93/mt-slideshow.git"
   },
-  "keywords": ["javascript","Angular","MT Framework"],
+  "keywords": [
+    "javascript",
+    "Angular",
+    "MT Framework"
+  ],
   "author": "Masoud Tahmasebi <mtahmasebi118@gmail.com> (http://masoudtahmasebi.ir)",
   "license": "ISC",
   "bugs": {

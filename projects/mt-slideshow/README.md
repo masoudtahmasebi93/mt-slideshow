@@ -1,24 +1,50 @@
-# MtSlideshow
+# MtSlideShow
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+This is going to be a simple Framework, currently the slideshow and soon carousel will be available.
 
-## Code scaffolding
+## How to install
 
-Run `ng generate component component-name --project mt-slideshow` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project mt-slideshow`.
-> Note: Don't forget to add `--project mt-slideshow` or else it will be added to the default project in your `angular.json` file. 
+For installing the component in an angular application you just have to run the following command and then you can simply use it:
 
-## Build
+        npm install mt-slideshow
 
-Run `ng build mt-slideshow` to build the project. The build artifacts will be stored in the `dist/` directory.
+you also need to add `@angular/platform-browser/animations` to the imports in the `app.module.ts` like below
 
-## Publishing
+    import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-After building your library with `ng build mt-slideshow`, go to the dist folder `cd dist/mt-slideshow` and run `npm publish`.
+    @NgModule({
+    imports: [BrowserModule, BrowserAnimationsModule],
+    declarations: [AppComponent, CarouselComponent],
+    bootstrap: [AppComponent]
+    })
 
-## Running unit tests
+## Using Slideshow
+ [**Demo**](https://brampeirs.github.io/angular-carousel/)  
 
-Run `ng test mt-slideshow` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The slide show is highly based on [here](https://github.com/brampeirs/angular-carousel)
 
+for using this component, you can use the following syntax:
+
+        <mt-slideshow [slides]="slides" animationType="flip"></mt-slideshow>
+
+in which, the slides is an array of slides with the property of `src` set to the url of the image, and optional `alt` property, which can make the plugin more SEO friendly
+
+this is a sample slides object:
+
+    slides = [
+        { src: "https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80", alt: "Picture 1" },
+        { src: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80", alt: "Picture 2" },
+        { src: "https://images.unsplash.com/photo-1557800634-7bf3c7305596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2001&q=80", alt: "Picture 3" }];
+
+In the end, don't forget that you have to also add `MtSlideshowModule` to the `app.module.ts` imports
+
+    ...
+    imports: [
+        ... ,
+        MtSlideshowModule,
+        ...
+    ],
+    ...
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If you needed any help feel free to raise a new issue in the issues section. You are more than welcome to do so.

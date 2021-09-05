@@ -12,6 +12,10 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
+      "mt-carousel": [
+        "dist/mt-carousel/mt-carousel",
+        "dist/mt-carousel"
+      ],
       "mt-slideshow": [
         "dist/mt-slideshow/mt-slideshow",
         "dist/mt-slideshow"

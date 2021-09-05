@@ -1,10 +1,16 @@
 # MtFramework
 
-This is going to be a simple Framework, currently the slideshow and soon carousel will be available
+This is going to be a simple Framework, currently the slideshow and soon carousel will be available.
 
-## How to use
+## How to install
 
-### Using Slideshow
+For installing the component in an angular application you just have to run the following command and then you can simply use it:
+
+        npm install mt-slideshow
+
+
+
+## Using Slideshow
  [**Demo**](https://brampeirs.github.io/angular-carousel/)  
 
 The slide show is highly based on [here](https://github.com/brampeirs/angular-carousel)

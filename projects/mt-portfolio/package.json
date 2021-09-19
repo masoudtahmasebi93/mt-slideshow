@@ -1,0 +1,24 @@
+{
+  "name": "mt-portfolio",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "description": "A Portfolio maker for Angular with image, heading, caption, ability to add contact form and demo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masoudtahmasebi93/masoudtahmasebi-landscape.git"
+  },
+  "keywords": ["javascript","Angular","MT Framework","Portfolio","component"],
+  "author": "Masoud Tahmasebi <mtahmasebi118@gmail.com> (https://masoudtahmasebi.ir)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masoudtahmasebi93/masoudtahmasebi-landscape/issues"
+  },
+  "homepage": "https://github.com/masoudtahmasebi93/masoudtahmasebi-landscape#readme"
+}

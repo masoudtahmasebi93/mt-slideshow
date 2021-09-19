@@ -16,6 +16,10 @@
         "dist/mt-carousel/mt-carousel",
         "dist/mt-carousel"
       ],
+      "mt-portfolio": [
+        "dist/mt-portfolio/mt-portfolio",
+        "dist/mt-portfolio"
+      ],
       "mt-slideshow": [
         "dist/mt-slideshow/mt-slideshow",
         "dist/mt-slideshow"
